@@ -8,9 +8,10 @@ Used for showing contents on Platforms (For Ex. Github)
 
    create headings with "#" prepending the content
 
-   ```
+   ```Markdown
    # H1 Heading
-   # H2 Heading
+   ## H2 Heading
+   ### H3 Heading
    ```
 
 ---
@@ -20,21 +21,23 @@ Used for showing contents on Platforms (For Ex. Github)
    Adding extra features like Bold, Italic, StrikeThrough(dashed) content
 
    - **Bold:**
-     ```
+     ```Markdown
      **content**
      or
      `__content__`
      ```
 
    - *Italic:*
-     ```
+     ```Markdown
      *content*
      or
      _content_
      ```
 
    - ~~StrikeThrough:~~
-     ```~~content~~```
+     ```Markdown
+     ~~content~~
+     ```
 
 ---
 
@@ -43,14 +46,14 @@ Used for showing contents on Platforms (For Ex. Github)
    creating Lists
 
    - Unordered list:
-     ```
+     ```Markdown
      - Item1
      - Item2
        - Sub-Item 1
      ```
 
    - Ordered List:
-     ```
+     ```Markdown
      1. First Item
      2. Second Item
         1. Sub-Item
@@ -62,7 +65,9 @@ Used for showing contents on Platforms (For Ex. Github)
 
    Adding external links
 
-   ```[Link Text/Content](link)```
+   ```Markdown
+   [Link Text/Content](link)
+   ```
 
 ---
 
@@ -70,7 +75,9 @@ Used for showing contents on Platforms (For Ex. Github)
 
    combining or Integrating Images for output
 
-   ```![Alt content](link to image file)```
+   ```Markdown
+   ![Alt content](link to image file)
+   ```
 
 ---
 
@@ -83,13 +90,15 @@ Used for showing contents on Platforms (For Ex. Github)
 7. __Code Blocks:__
 
    - Inline code:
-     ```
+     ```Markdown
      `code`
      ```
 
    - Block code:
-     ```
-     ```code```
+     ```Markdown
+     \*```Language-name(optional)
+     Multi-line code
+     ```\*
      ```
 
 ---
@@ -98,7 +107,7 @@ Used for showing contents on Platforms (For Ex. Github)
 
    Adding Horizontal Lines for partitioning page
 
-   ```
+   ```Markdown
    content before line
    ---
    content after line
@@ -109,17 +118,76 @@ Used for showing contents on Platforms (For Ex. Github)
 9. __Tables:__
 
    Creating Tables for display
-   ```
-   | Heading1 | Heading2 |
-   |----------|----------|
-   | Cell1    | Cell2    |
-   | Cell3    | Cell4    |
-   ```
+   - __Normal Table:__
+     ```Markdown
+     | Heading1 | Heading2 |
+     |----------|----------|
+     | Cell1    | Cell2    |
+     | Cell3    | Cell4    |
+     ```
+     Ex output:
+     | Heading1 | Heading2 |
+     |----------|----------|
+     | Cell1    | Cell2    |
+     | Cell3    | Cell4    |
 
-   Ex output:
-   | Heading1 | Heading2 |
-   |----------|----------|
-   | Cell1    | Cell2    |
-   | Cell3    | Cell4    |
+   - __Aligned Tables:__
+     ```Markdown
+     | Right    | Center   | Left     |
+     |:---------|:--------:|---------:|
+     | Cell1    | Cell2    | Cell3    |
+     | Cell4    | Cell5    | Cell6    |
+     ```
+     Ex output:
+     | Right    | Center   | Left     |
+     |:---------|:--------:|---------:|
+     | Cell1    | Cell2    | Cell3    |
+     | Cell4    | Cell5    | Cell6    |
+
+---
+
+10. __Task Lists:__
+    Create Check-box pattern
+    ```Markdown
+    - [x] Completed Task
+    - [ ] Incomplete Task
+    ```
+
+---
+
+11. __Footnotes:__
+    Adding Footnotes.[^1]
+    [^1]: to content
+    ```Markdown
+    content [^footnote_name]footnote
+    [^footnote_name]: footnote definition
+    ```
+
+---
+
+12. __Definition Lists:__
+    Creating Defintions
+    : for use
+    ```Markdown
+    Term1
+    : Definition 1
+    Term2
+    : Definition 2
+    ```
+
+---
+
+14. __Emojis:__
+    Adding Emojis to content:page_with_curl:
+    ```Markdown
+    content before emoji :Emoji_name: content after emoji
+    ```
+
+---
+
+15. __Comments:__
+    ```markdown
+    <!-- Comment -->
+    ```
 
 ---
