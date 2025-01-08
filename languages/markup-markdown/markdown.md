@@ -96,9 +96,9 @@ Used for showing contents on Platforms (For Ex. Github)
 
    - Block code:
      ```Markdown
-     \*```Language-name(optional)
+     ```Language-name(optional)
      Multi-line code
-     ```\*
+     \*```
      ```
 
 ---
@@ -157,7 +157,7 @@ Used for showing contents on Platforms (For Ex. Github)
 
 11. __Footnotes:__
     Adding Footnotes.[^1]
-    [^1]: to content
+    [^1]: Example footnote
     ```Markdown
     content [^footnote_name]footnote
     [^footnote_name]: footnote definition
@@ -165,27 +165,15 @@ Used for showing contents on Platforms (For Ex. Github)
 
 ---
 
-12. __Definition Lists:__
-    Creating Defintions
-    : for use
-    ```Markdown
-    Term1
-    : Definition 1
-    Term2
-    : Definition 2
-    ```
-
----
-
-14. __Emojis:__
-    Adding Emojis to content:page_with_curl:
+12. __Emojis:__
+    Adding Emojis to content 📃
     ```Markdown
     content before emoji :Emoji_name: content after emoji
     ```
 
 ---
 
-15. __Comments:__
+13. __Comments:__
     ```markdown
     <!-- Comment -->
     ```
