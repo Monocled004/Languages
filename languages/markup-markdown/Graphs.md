@@ -6,17 +6,17 @@ Used for adding Graphs & Charts in Markdown pages
    - creating nodes:
      - default:
        ```
-       \*```mermaid
+       \```mermaid
            flowchart LR;
                id;
-       ```*\
+       \```
        ```
      - Node with Text:
        ```
-       \*```mermaid
+       \```mermaid
            flowchart LR;
                id1[This is the Text]
-       ```*\
+       \```
        ```
 ```mermaid
 flowchart TD;
