@@ -1,20 +1,7 @@
-# Mermaid
-Used for adding Graphs & Charts in Markdown pages
+# __Flow Charts__
 
-1. __Flow Charts:__
    - Flowcharts are composed of nodes (geometric shapes) and edges (arrows or lines).
-   - 
-```mermaid
 ---
-title: Example Flowchart
----
-flowchart LR;
-    A(Start) -->|Transition comment| B[poawshviu];
-    B --> C{If };
-    C -->|One| D[Laptop];
-    C -->|Two| E[iPhone];
-    C -->|Three| F[fa:fa-car Car];
-```
    - creating nodes:
      - default:
        ```
@@ -28,7 +15,7 @@ flowchart LR;
            flowchart LR;
                id1[This is the Text];
        ```
-
+---
    - Adding Markdown Text in graphs:
      - Use double quotes and backticks "` text `" to enclose the markdown text.
        ```
@@ -41,6 +28,7 @@ flowchart LR;
              Line 3`"];
              markdown --> newLines;
        ```
+---
    - __Direction:__
      -
      | Abbrevation | Full form     |
@@ -57,6 +45,7 @@ flowchart LR;
        flowchart <Abbrevation>;
           Start --> Stop;
        ```
+---
    - __Node Shapes:__
      -
      | Syntax         | Edge/Type     |
@@ -107,6 +96,7 @@ flowchart LR;
            A@{ img: "https://example.com/image.png", label: "Image Label",
            pos: "t", w: 60, h: 60, constraint: "off" };
            ```
+---
    - __Links Between Nodes:__
      - Nodes can be connected with links/edges. It is possible to have
        different types of links or attach a text string to a link.
@@ -128,6 +118,7 @@ flowchart LR;
      | o-o            | Double Circle |
 
      - Adding extra '-', '.', '=' will increase maximum length of that link.
+---
    - __Sub-Graphs:__
      - Can be used to add nested graphs under Flow Charts.
      - Syntax:
