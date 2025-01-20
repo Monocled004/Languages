@@ -78,15 +78,6 @@ flowchart LR;
        ```
      - ```mermaid
        flowchart LR;
-          id([Stadium Edges]);
-       ```
-       ```
-       ```mermaid
-       flowchart LR;
-          id1([text in the box]);
-       ```
-     - ```mermaid
-       flowchart LR;
           id[[subroutine Edges]];
        ```
        ```
@@ -105,40 +96,102 @@ flowchart LR;
        ```
      - ```mermaid
        flowchart LR;
-          id((Stadium Edges));
+          id((Cicular Edges));
        ```
        ```
        ```mermaid
        flowchart LR;
-          id1([text in the box]);
+          id1((text in the box));
        ```
 
      - ```mermaid
        flowchart LR;
-          id((Stadium Edges));
+          id>Assymetric Edges];
        ```
        ```
        ```mermaid
        flowchart LR;
-          id1([text in the box]);
+          id1>text in the box];
        ```
 
      - ```mermaid
        flowchart LR;
-          id((Stadium Edges));
+          id{rhombus Edges};
        ```
        ```
        ```mermaid
        flowchart LR;
-          id1([text in the box]);
+          id1{text in the box};
        ```
 
      - ```mermaid
        flowchart LR;
-          id((Stadium Edges));
+          id{{Hexagonal Edges}};
        ```
        ```
        ```mermaid
        flowchart LR;
-          id1([text in the box]);
+          id1{{text in the box}};
        ```
+
+
+     - ```mermaid
+       flowchart LR;
+          id[/Parallelogram Edge/];
+       ```
+       ```
+       ```mermaid
+       flowchart LR;
+          id1[/text in the box/];
+       ```
+
+
+     - ```mermaid
+       flowchart LR;
+          id[\Parallelogram Alt Edge\];
+       ```
+       ```
+       ```mermaid
+       flowchart LR;
+          id1[\text in the box\];
+       ```
+
+
+     - ```mermaid
+       flowchart LR;
+          id1[/Trapezoid Edge\];
+       ```
+       ```
+       ```mermaid
+       flowchart LR;
+          id1[/text in the box\];
+       ```
+
+
+     - ```mermaid
+       flowchart LR;
+          id[\Trapezoid Alt Edge/];
+       ```
+       ```
+       ```mermaid
+       flowchart LR;
+          id1[\text in the box/];
+       ```
+
+
+     - ```mermaid
+       flowchart LR;
+          id(((Double Circular Edges)));
+       ```
+       ```
+       ```mermaid
+       flowchart LR;
+          id1(((text in the box)));
+       ```
+   - Extra Shapes(Introduced in v11.3.0+):
+     - __Syntax:__
+       ```
+       A@{ shape: <Shape-name>, label: <Label to show>}
+       ```
+     - __Available Shapes:__
+       [Check Them Out From Here](https://mermaid.js.org/syntax/flowchart.html)
