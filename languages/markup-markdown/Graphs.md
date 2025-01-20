@@ -17,19 +17,19 @@ flowchart LR;
 ```
    - creating nodes:
      - default:
-       >```mermaid
-       >    flowchart LR;
-       >        id;
-
+       \```mermaid
+           flowchart LR;
+               id;
+       \```
      - Node with Text:
-       >```mermaid
-       >    flowchart LR;
-       >        id1[This is the Text];
-
+       \```mermaid
+           flowchart LR;
+               id1[This is the Text];
+       \```
     - Adding Markdown Text in graphs:
         - Use double quotes and backticks "` text `" to enclose the markdown text.
         - 
-        >```mermaid
+        \```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%%;
 flowchart LR
     markdown["`This **is** _Markdown_`"]
