@@ -9,15 +9,13 @@ Used for adding Graphs & Charts in Markdown pages
        ```mermaid
            flowchart LR;
                id;
-       ```
-       ```
+
      - Node with Text:
        ```
        ```mermaid
            flowchart LR;
                id1[This is the Text]
-       ```
-       ```
+
 ```mermaid
 flowchart TD;
     A(Start) -->|Transition comment| B[poawshviu];
