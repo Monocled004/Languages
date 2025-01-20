@@ -128,3 +128,36 @@
        graph definition
        end
        ```
+---
+   - __Styling A node:__
+     - It is possible to apply specific styles such as a thicker border
+       or a different background color to a node.
+     - Mermaid have somewhat similar syntax to CSS.
+     - Example:
+       ```
+       ```mermaid
+       flowchart LR
+       id1(Start)-->id2(Stop)
+       style id1 fill:#f9f,stroke:#333,stroke-width:4px
+       style id2 fill:#bbf,stroke:#f66,stroke-width:2px,color:#fff,stroke-dasharray: 5 5
+       ```
+     - Classes:
+       - Class Definition:
+         ```
+         ```mermaid
+         classDef className \<styling parameters\>;
+         ```
+       - Attachment of a class to a node:
+         ```
+         ```mermaid
+         class nodeId1,nodeID2 className;
+         ```
+       - Short Attachment to node:
+         ```
+         ```mermaid
+         flowchart LR
+            A:::someclass --> B
+            classDef someclass fill:#f96
+         ```
+       - If a class is named `default` it will be applied to all nodes
+         as a __default class__ only
